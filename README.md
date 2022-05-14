@@ -9,9 +9,13 @@ https://www.julianlenz.com/controlledchaos
 ## Architecture
 
 Euclidian Rhythms are broken down into 3 defining numbers:
+
 Played Hits / Total Beats / Phase Offset
+
 For example, a pattern of (4/16/1) would result in:
+
 0 X 0 0 0 X 0 0 0 X 0 0 0 X 0 0 
+
 
 The device's primary mode is polyphonic - each note played by the user will generate a different rhythm. For example, while holding C3 it plays (12/15/4), but when the user adds a G4 (whilst holding the first note) it could trigger at (9/17/2). 
 
